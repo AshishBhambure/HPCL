@@ -12,7 +12,7 @@ void merge(int* a, int l, int m, int r) {
 
     for (int i = 0; i < n1; i++) L[i] = a[l + i];
     for (int i = 0; i < n2; i++) R[i] = a[m + 1 + i];
-
+    
     int i = 0, j = 0, k = l;
 
     while (i < n1 && j < n2)
